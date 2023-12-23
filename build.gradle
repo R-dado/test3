@@ -2,6 +2,7 @@
 plugins {
     id 'com.android.application' version '7.4.2' apply false
     id 'com.android.library' version '7.4.2' apply false
+    id 'org.cyclonedx.bom' version '1.8.1'
 }
 
 task clean(type: Delete) {
